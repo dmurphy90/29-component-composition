@@ -4,7 +4,9 @@ import NoteItem from '../note-item/index.js';
 class NoteList extends React.Component{
   constructor(props){
     super(props);
+    
   }
+
 
   render(){
     return(
@@ -20,3 +22,5 @@ class NoteList extends React.Component{
     );
   }
 }
+
+export default NoteList;
